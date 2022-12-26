@@ -12,3 +12,7 @@
 /scoreboard players set @p button <按钮序号>
 即可。替换其中的序号为具体数字，要求大于 0 。
 使用 /tag <玩家名> add button 设置负责判定按钮数字的人员。
+
+蜡烛功能，设想是蜡烛下方放一个侦测器，侦测器下接命令方块
+命令方块内容是 execute as @p run rfm:candle
+即可。
