@@ -5,7 +5,7 @@
 同理，/tag <玩家名> add target 即可。
 
 若需要关闭猎人王的功能，执行
-/scoreboard players set king function 0
+/scoreboard players set king func 0
 即可。
 
 开局按钮，在按钮后面放一个命令方块，内容是
