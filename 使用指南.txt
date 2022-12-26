@@ -1,0 +1,14 @@
+此数据包中，我们将有 king 标签的玩家视为猎人王。
+用 /tag <玩家名> add king 即可设置猎人王。
+
+有 target 标签的玩家会被视为猎人王的目标。
+同理，/tag <玩家名> add target 即可。
+
+若需要关闭猎人王的功能，执行
+/scoreboard players set king function 0
+即可。
+
+开局按钮，在按钮后面放一个命令方块，内容是
+/scoreboard players set @p button <按钮序号>
+即可。替换其中的序号为具体数字，要求大于 0 。
+使用 /tag <玩家名> add button 设置负责判定按钮数字的人员。
