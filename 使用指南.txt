@@ -8,11 +8,19 @@
 /scoreboard players set king func 0
 即可。
 
+启用？0 换成 1 就行。
+
 开局按钮，在按钮后面放一个命令方块，内容是
 /scoreboard players set @p button <按钮序号>
 即可。替换其中的序号为具体数字，要求大于 0 。
 使用 /tag <玩家名> add button 设置负责判定按钮数字的人员。
 
 蜡烛功能，设想是蜡烛下方放一个侦测器，侦测器下接命令方块
-命令方块内容是 execute as @p run rfm:candle
-即可。
+命令方块内容是 execute as @p run rfm:event_X
+即可。其中，X是字母，需要替换为具体的序号。
+
+有以下 3 种事件:
+
+* a - 激活猎人王
+* b - 给予复活机会
+* c - 无事件
